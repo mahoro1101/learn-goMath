@@ -1,5 +1,17 @@
 package basicOperation
 
-func Plus(a float64, b float64) float64 {
+func Add(a int, b int) int {
 	return a + b
+}
+
+func Sub(a int, b int) int {
+	return a - b
+}
+
+func Multi(a int, b int) int {
+	return a * b
+}
+
+func Div(a int, b int) int {
+	return a / b
 }

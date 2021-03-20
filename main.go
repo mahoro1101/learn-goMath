@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Println(basic.Plus(3.3, 2.3))
+	fmt.Println(basic.Add(3, 3))
 }
