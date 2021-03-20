@@ -3,9 +3,13 @@ package main
 import (
 	"fmt"
 
-	"github.com/mahoro1101/learn-goMath/basic"
+	basicOperation "github.com/mahoro1101/learn-goMath/basic"
 )
 
 func main() {
-	fmt.Println(basic.Add(3, 3))
+	var a, b int = 32, 30
+	fmt.Println(basicOperation.Add(a, b))
+	fmt.Println(basicOperation.Sub(a, b))
+	fmt.Println(basicOperation.Multi(a, b))
+	fmt.Println(basicOperation.Div(a, b))
 }
