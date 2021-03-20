@@ -1,4 +1,4 @@
-package basicOperation
+package elementaryMath
 
 func Add(a int, b int) int {
 	return a + b
