@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	elementary "github.com/mahoro1101/learnGoMath/basic"
+	elementary "github.com/mahoro1101/learnGoMath/elementary"
 )
 
 func main() {
