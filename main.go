@@ -3,10 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/mahoro1101/learn-goMath/basic"
+	elementary "github.com/mahoro1101/learnGoMath/basic"
 )
 
 func main() {
-	var a, b int = 32, 30
-	fmt.Println(.Add(a, b))
+	fmt.Println(elementary.Add(3, 2))
 }
