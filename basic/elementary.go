@@ -1,4 +1,4 @@
-package elementaryMath
+package elementary
 
 func Add(a int, b int) int {
 	return a + b
@@ -29,3 +29,13 @@ func Mod(a int, b int) int {
 }
 
 // modulo 나머지 연산하다
+
+func Divisor(a int) *[]int {
+	var divisor *[]int
+	return divisor
+}
+
+func Multiple(a int) *[]int {
+	var multiple *[]int
+	return multiple
+}
